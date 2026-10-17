@@ -75,11 +75,11 @@ Desarrollar distintos casos de prueba (test) para demostrar que todo funciona co
 - nibbles
 
 #### **Métodos**
-- comer
-- correr
-- velocidadMaxima
-- energia
-- estaFeliz
-- cazar
-- peso
-- cumplirAnios
+- x comer
+- x correr
+- x velocidadMaxima
+- x energia
+- x estaFeliz
+- x cazar
+- x peso
+- x cumplirAnios

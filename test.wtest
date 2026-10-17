@@ -1,0 +1,21 @@
+import tomYJerry.*
+
+test "tom vel max es 10"{
+    assert.equals(10, tom.velocidadMaxima())
+}
+test "tom come a jerry"{
+    tom.comer(jerry)
+    assert.equals(102, tom.energia())
+}
+test "tom corre 24 metros"{
+    tom.comer(jerry)
+    tom.correr(24)
+    assert.equals(14, tom.velocidadMaxima())
+    tom.comer(nibbles)
+        assert.equals(18.7, tom.velocidadMaxima())
+    jerry.cumplirAnios()
+    tom.comer(jerry)
+    assert.equals (25.9, tom.velocidadMaxima())
+    tom.correr(38)
+    assert.equals(24, tom.velocidadMaxima())
+}
